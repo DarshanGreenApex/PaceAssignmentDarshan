@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">TaskAssignmentPaceDarshan</string>
+    <string name="complete_later">Complete Later</string>
+    <string name="quick_online_kyc_for_better_security">Quick, online KYC for better security</string>
+    <string name="doing_good">Doing Good!</string>
+    <string name="address_proof">Address Proof</string>
+    <string name="please_verify_the_details_extracted_from_the_ocr">Please verify the details extracted from the OCR</string>
+    <string name="select_address_proof">Select address proof</string>
+    <string name="select_image">Select Image</string>
+    <string name="dl_number">DL Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="exipry_date_on_dl">Exipry Date on DL</string>
+    <string name="issue_date_on_dl">Issue Date on DL</string>
+    <string name="address">Address</string>
+    <string name="city_district">City / District</string>
+    <string name="state">State</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="next">next</string>
+    <string name="gallary">Gallary</string>
+    <string name="camera">Camera</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="address_proof_items">
+        <item>Driving Licence</item>
+        <item>Electricity Bill</item>
+        <item>Green Card</item>
+    </string-array>
+
+
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_fractions">Fractions</string>
+    <string name="tab_protrade">ProTrade</string>
+    <string name="tab_profile">Profile</string>
+    <string name="tab_goals">Goals</string>
+    <string name="change_savings">Change Savings</string>
+    <string name="change_savings_dashboard">Change savings dashboard</string>
+    <string name="search">Search</string>
+    <string name="where_we_invest_the_change">Where we invest the change</string>
+    <string name="we_automatically_invest_your_change_in_us_stock_based_etfs">We automatically invest your\nchange in US Stock based ETFs</string>
+    <string name="invest_desc">Our proprietary Artificial Intelligence technology\nwill help you invest in a diversified mix of\nexchange-traded funds(or ETFs for shorts).</string>
+    <string name="learn_more">Learn more</string>
+    <string name="all_settings">All Settings</string>
+    <string name="change_savings_settings">Change Savings Settings</string>
+    <string name="modify_your_chnage">Modify your chnage savings\nsettings from here.</string>
+    <string name="why_invest_with_us">Why invest with us</string>
+    <string name="thanks_to_appriciate">Thanks to Appriciate. I\'ve made\n5X on my investment.</string>
+    <string name="news">News</string>
+    <string name="research_perspective"><![CDATA[Research & Perspective]]></string>
+    <string name="view_all">View all</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="view_more">View more</string>
+    <string name="spendamount">Spend Amount</string>
+    <string name="spend_form">Spend Form</string>
+    <string name="deducted_form">Deducted Form</string>
+    <string name="invest_summary">Investment Summary</string>
+    <string name="_1_d">1 D</string>
+    <string name="_1_w">1 W</string>
+    <string name="_1_m">1 M</string>
+    <string name="_3_m">3 M</string>
+    <string name="_1_y">1 Y</string>
+    <string name="_5_y">5 Y</string>
+    <string name="all">All</string>
+    <string name="to_be_invested">To be invested</string>
+    <string name="total_saved">Total Saved</string>
+    <string name="current_invested">Current Invested</string>
+    <string name="_1_day_performance">1 Day performance</string>
+    <string name="as_of_16_54_pm_oct_29">As of 16:54 PM, Oct 29</string>
+
+</resources>

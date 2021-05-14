@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/_2sdp"
+        android:layout_height="@dimen/_150sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_6sdp"
+        app:srcCompat="@drawable/vertical_dotted_line"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_140sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="0dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_25sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$16"
+                android:textSize="@dimen/_13ssp"
+                app:fontFamily="@font/cabin_bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:2AM"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:fontFamily="@font/cabin_regular"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvStarbuks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starbucks"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:fontFamily="@font/cabin_semibold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvAmount"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSpendAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spendamount"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:fontFamily="@font/cabin_regular"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvStarbuks"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSpendAmountSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$122"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:fontFamily="@font/cabin_bold"
+                app:layout_constraintTop_toTopOf="@+id/tvSpendAmount"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvRound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Round up to $130)"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:fontFamily="@font/cabin_regular"
+                app:layout_constraintTop_toBottomOf="@+id/tvSpendAmount"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_13sdp"
+                android:layout_height="@dimen/_13sdp"
+                app:srcCompat="@drawable/ic_two_x"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvSpendAmount"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSpendFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spend_form"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:fontFamily="@font/cabin_regular"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRound"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSpendFromValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICICI Bank XXXXX789"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:fontFamily="@font/cabin_bold"
+                app:layout_constraintTop_toTopOf="@+id/tvSpendFrom"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDeductFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deducted_form"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:fontFamily="@font/cabin_regular"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSpendFrom"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDeductFromValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SBI Bank XXXXX2314"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:fontFamily="@font/cabin_bold"
+                app:layout_constraintTop_toTopOf="@+id/tvDeductFrom"
+                app:layout_constraintEnd_toEndOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

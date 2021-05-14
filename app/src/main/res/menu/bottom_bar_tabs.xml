@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/tab_dashboard"
+        android:title="@string/tab_dashboard" />
+    <item
+        android:id="@+id/goalsFragment"
+        android:icon="@drawable/tab_goals"
+        android:title="@string/tab_goals" />
+    <item
+        android:id="@+id/fractionsFragment"
+        android:icon="@drawable/tab_fractions"
+        android:title="@string/tab_fractions" />
+    <item
+        android:id="@+id/proTradeFragment"
+        android:icon="@drawable/tab_protrade"
+        android:title="@string/tab_protrade" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/tab_profile"
+        android:title="@string/tab_profile" />
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="mainViewModel"
+            type="com.example.taskassignmentpacedarshan.ui.main.viewmodel.MainViewModel" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/navHostFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_48sdp"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_bar"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/main" />
+
+        <nl.joery.animatedbottombar.AnimatedBottomBar
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:background="@drawable/bottom_bar_background"
+            android:elevation="@dimen/_16sdp"
+            app:abb_selectedIndex="0"
+            app:abb_tabs="@menu/bottom_bar_tabs"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        <include layout="@layout/layout_loading" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

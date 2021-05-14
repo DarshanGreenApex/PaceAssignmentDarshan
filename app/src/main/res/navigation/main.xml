@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main.xml"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment android:id="@+id/dashboardFragment"
+              android:name="com.example.taskassignmentpacedarshan.ui.main.view.DashboardFragment"
+              android:label="dashboardFragment"
+        tools:layout="@layout/fragment_dashboard">
+    </fragment>
+
+    <fragment android:id="@+id/goalsFragment"
+        android:name="com.example.taskassignmentpacedarshan.ui.main.view.GoalsFragment"
+        android:label="GoalsFragment"
+        tools:layout="@layout/fragment_goals">
+    </fragment>
+
+    <fragment android:id="@+id/fractionsFragment"
+        android:name="com.example.taskassignmentpacedarshan.ui.main.view.FractionsFragment"
+        android:label="FractionsFragment"
+        tools:layout="@layout/fragment_fractions">
+    </fragment>
+
+    <fragment android:id="@+id/proTradeFragment"
+        android:name="com.example.taskassignmentpacedarshan.ui.main.view.ProTradeFragment"
+        android:label="ProTradeFragment"
+        tools:layout="@layout/fragment_protrade">
+    </fragment>
+
+    <fragment android:id="@+id/profileFragment"
+        android:name="com.example.taskassignmentpacedarshan.ui.main.view.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile">
+    </fragment>
+
+
+</navigation>
